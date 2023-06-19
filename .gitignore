@@ -1,0 +1,6 @@
+# Python related files
+__pycache__
+poetry.lock
+
+# Local tests
+results

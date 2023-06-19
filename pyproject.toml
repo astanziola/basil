@@ -5,11 +5,46 @@ description = "Benchmarking And Statistical Inspection Library"
 authors = ["Antonio Stanziola <stanziola.antonio@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+keywords = [
+  "benchmarking",
+  "python",
+  "simulation"
+]
+classifiers=[
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+]
+
+packages = [
+    { include = "basil", from = "src" }
+]
+
+[tool.poetry.scripts]
+basil = "basil.main:main"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
+psutil = "^5.9.5"
+streamlit = "^1.23.1"
+matplotlib = "^3.7.1"
 
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.25.0"
+jax = "^0.4.11"
+yapf = "^0.40.0"
+isort = "^5.12.0"
+python-kacl = "^0.4.6"
+pre-commit = "^3.3.3"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.yapf]
+based_on_style = "pep8"
+spaces_before_comment = 4
+split_before_logical_operator = true
