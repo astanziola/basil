@@ -1,8 +1,13 @@
-# Basil
+<div align="center">
+  <img src="static/assets/logo_basil.png" width="100" align="center">
+  <h1>Basil</h1>
+</div>
+
+
 
 __Benchmarking And Statistical Inspection Library__
 
-⚠️ This library is still in development and is not yet ready for production use. Breaking changes may occur at any time.
+⚠️ This library is still in development. Breaking changes may occur at any time.
 
 ## Install
 
