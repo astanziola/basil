@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "basil"
+version = "0.0.1"
+description = "Benchmarking And Statistical Inspection Library"
+authors = ["Antonio Stanziola <stanziola.antonio@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
