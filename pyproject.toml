@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "basil"
+name = "basil-suite"
 version = "0.0.2"
 description = "Benchmarking And Statistical Inspection Library"
 authors = ["Antonio Stanziola <stanziola.antonio@gmail.com>"]
