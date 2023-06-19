@@ -11,6 +11,11 @@ on:
 jobs:
   draft-release:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: write
+
     steps:
       - name: Set up SSH agent
         uses: webfactory/ssh-agent@v0.5.0
