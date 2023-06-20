@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "basil-suite"
-version = "0.0.2"
+version = "0.0.1"
 description = "Benchmarking And Statistical Inspection Library"
 authors = ["Antonio Stanziola <stanziola.antonio@gmail.com>"]
 license = "MIT"
